@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* This prevents scrolling */
+    height: 100%;
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.textpg1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align:center;
+    color:#1C0D12;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top:auto;
+}
+.box1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align:center;
+    color:#FFFFFF;
+    height:50px;
+    width:240px;
+    border-radius:20px;
+    background-color:#F0427D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top:10px;
+}
+.box1:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+ }
+
+.box1:active {
+            transform: translateY(1px);
+}
+
+.img1{
+
+width: 300px;
+height: 320px;
+margin-bottom:20px;
+}
+.main2{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.img2{
+    width:300px;
+    height:300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.img3{
+    width:300px;
+    height:300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.textpg2{
+     font-family: "Plus Jakarta Sans", sans-serif;
+     color:#1C0D12;
+     font-weight:bold;
+     margin-left:20px;
+     margin-top:20px;
+     cursor:pointer;
+     background-color:#F0427D;
+     color:#FFFFFF;
+     border-color:#FFFFFF;
+}
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    margin-top:20px;
+
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+    width:220px;
+    height:250px;
+}
+.heartsvg{
+    width:450px;
+    height:450px;
+    margin-left:410px;
+}
+.textpg3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.press{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color:#1C0D12;
+    font-weight:bold;
+    font-size:30px;
+}
+.luck{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color:#1C0D12;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:480px;
+}
+.here{
+    background-color:#F0427D;
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+    font-size:20px;
+}
