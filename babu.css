@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -136,6 +137,9 @@ margin-bottom:20px;
     color:#FFFFFF;
     border-color:#FFFFFF;
     font-size:20px;
+}
+#new, .luck {
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
