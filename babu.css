@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* This prevents scrolling */
     height: 100%;
 }
 
@@ -137,4 +136,65 @@ margin-bottom:20px;
     color:#FFFFFF;
     border-color:#FFFFFF;
     font-size:20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main1, .main2 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .img1, .img2, .img3 {
+        width: 200px;
+        height: auto;
+        position: static; /* remove absolute positioning */
+        margin: 10px auto;
+    }
+
+    .row1, .row2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        width: 90%;
+        height: auto;
+    }
+
+    .heartsvg {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .textpg3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .luck {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .press {
+        font-size: 24px;
+    }
+
+    .here {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .textpg2 {
+        font-size: 16px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
 }
